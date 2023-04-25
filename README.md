@@ -4,3 +4,4 @@
 4. If you are facing any issue please contact me on vcarbonaro118@gmail.com
 5. For apached camel timer com.assignment.camel.timer --> SimpleMessageRoute
 6. You can see the written out pur files in target folder with the title, data, abstract , authors and author links.
+7. docker configruatiosn are placed in the code but did not test it, as in the email docker was not mentioned. so did not generated and uploaded the image to docker hub.

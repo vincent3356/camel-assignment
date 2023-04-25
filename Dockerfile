@@ -9,7 +9,7 @@ MAINTAINER vincent
 COPY target/camel-sprint-boot-service-a-0.0.1-SNAPSHOT assignment.jar
 WORKDIR /
 VOLUME /tmp
-EXPOSE 8080
+EXPOSE 8081
 
 # ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/assignment.jar"]
 

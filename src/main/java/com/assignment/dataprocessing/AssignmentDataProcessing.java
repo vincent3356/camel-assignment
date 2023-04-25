@@ -14,6 +14,11 @@ import com.assignment.commonutils.Constants;
 import com.assignment.models.AbsractAndAuthorInformation;
 
 
+/**
+ * 
+ * files are begin written in the the main directory, target folder
+ *
+ */
 
 public class AssignmentDataProcessing {
 	
