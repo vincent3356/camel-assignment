@@ -3,3 +3,4 @@
 3. Code is also uploaded to git public  repo https://github.com/vincent3356/camel-assignment.git
 4. If you are facing any issue please contact me on vcarbonaro118@gmail.com
 5. For apached camel timer com.assignment.camel.timer --> SimpleMessageRoute
+6. You can see the written out pur files in target folder with the title, data, abstract , authors and author links.
