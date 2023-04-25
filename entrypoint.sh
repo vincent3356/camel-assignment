@@ -6,4 +6,4 @@ export DATETIME=$DATE
 
 #echo $DATETIME
 set -ex
-java -Djava.security.egd=file:/dev/./urandom -jar /balance.jar
+java -Djava.security.egd=file:/dev/./urandom -jar /assignment.jar
