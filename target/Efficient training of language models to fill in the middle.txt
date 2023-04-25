@@ -1,0 +1,26 @@
+Efficient training of language models to fill in the middle
+Jul 28, 2022July 28, 2022
+ We show that autoregressive language models can learn to infill text after we
+apply a straightforward transformation to the dataset, which simply moves a
+span of text from the middle of a document to its end. While this data
+augmentation has garnered much interest in recent years, we provide extensive
+evidence that training models with a large fraction of data transformed in this
+way does not harm the original left-to-right generative capability, as measured
+by perplexity and sampling evaluations across a wide range of scales. Given the
+usefulness, simplicity, and efficiency of training models to fill-in-the-middle
+(FIM), we suggest that future autoregressive language models be trained with
+FIM by default. To this end, we run a series of ablations on key
+hyperparameters, such as the data transformation frequency, the structure of
+the transformation, and the method of selecting the infill span. We use these
+ablations to prescribe strong default settings and best practices to train FIM
+models. We have released our best infilling model trained with best practices
+in our API, and release our infilling benchmarks to aid future research.
+
+John Schulman,Jerry Tworek,Mark Chen,Mohammad Bavarian,Heewoo Jun,Christine McLeavey,Nikolas Tezak,
+http://joschu.net/,https://scholar.google.com/citations?user=itSa94cAAAAJ&hl=en,https://news.berkeley.edu/2023/04/20/chatgpt-architect-berkeley-alum-john-schulman-on-his-journey-with-ai/,https://ieeexplore.ieee.org/author/37077552100,https://dl.acm.org/profile/99658641032
+https://scholar.google.com/citations?user=ZPuESCQAAAAJ&hl=en,https://www.researchgate.net/scientific-contributions/Jerry-Tworek-2165243173,https://twitter.com/MillionInt,https://paperswithcode.com/author/jerry-tworek,https://deepai.org/profile/jerry-tworek
+https://www.thriftbooks.com/a/mark-chen/313376/,https://www.amazon.com/Mark-Chen/e/B001K8USRG/ref=zg_bs_156629011_bl_sccl_17/000-0000000-0000000,https://www.goodreads.com/author/list/191228.Mark_Chen,https://www.penguinrandomhouse.com/authors/2068208/mark-chen/,https://www.wob.com/en-us/books/author/mark-chen
+https://scholar.google.com/citations?user=uMg7CEAAAAAJ&hl=en,http://theoryofcomputing.org/articles/v016a012/about.html,https://ieeexplore.ieee.org/author/37086654716,https://typeset.io/authors/mohammad-bavarian-46v57h294r,https://www.semanticscholar.org/author/Mohammad-Bavarian/2400764
+https://ieeexplore.ieee.org/author/37086453107,https://openreview.net/profile?id=~Heewoo_Jun2,https://www.semanticscholar.org/author/Heewoo-Jun/35450887,https://paperswithcode.com/author/heewoo-jun,https://dl.acm.org/profile/99660345615
+https://christinemcleavey.com/,https://medium.com/dsnet/interview-with-openai-fellow-christine-mcleavey-payne-aaef948ad571,https://paperswithcode.com/author/christine-mcleavey,https://twitter.com/mcleavey/status/1511751044153311232?lang=en,https://www.linkedin.com/in/mcleavey
+https://scholar.google.com/citations?user=t0W3jVsAAAAJ&hl=en,https://www.linkedin.com/in/nikolas-tezak,https://ieeexplore.ieee.org/author/38551169500,https://paperswithcode.com/author/nikolas-tezak,http://www.niktezak.com/

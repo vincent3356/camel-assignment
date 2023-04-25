@@ -1,0 +1,43 @@
+Aligning language models to follow instructions
+Jan 27, 2022January 27, 2022
+ Making language models bigger does not inherently make them better at
+following a user's intent. For example, large language models can generate
+outputs that are untruthful, toxic, or simply not helpful to the user. In other
+words, these models are not aligned with their users. In this paper, we show an
+avenue for aligning language models with user intent on a wide range of tasks
+by fine-tuning with human feedback. Starting with a set of labeler-written
+prompts and prompts submitted through the OpenAI API, we collect a dataset of
+labeler demonstrations of the desired model behavior, which we use to fine-tune
+GPT-3 using supervised learning. We then collect a dataset of rankings of model
+outputs, which we use to further fine-tune this supervised model using
+reinforcement learning from human feedback. We call the resulting models
+InstructGPT. In human evaluations on our prompt distribution, outputs from the
+1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3,
+despite having 100x fewer parameters. Moreover, InstructGPT models show
+improvements in truthfulness and reductions in toxic output generation while
+having minimal performance regressions on public NLP datasets. Even though
+InstructGPT still makes simple mistakes, our results show that fine-tuning with
+human feedback is a promising direction for aligning language models with human
+intent.
+
+Katarina Slama,Jan Leike,Paul Christiano,Xu Jiang,Sandhini Agarwal,Maddie Simens,Fraser Kelton,Carroll L. Wainwright,Luke Miller,Pamela Mishkin,Chong Zhang,Jacob Hilton,Ryan Lowe,Jeff Wu,John Schulman,Amanda Askell,Long Ouyang,Diogo Almeida,Alex Ray,Peter Welinder,
+https://scholar.google.com/citations?user=mOCKfhoAAAAJ&hl=en,https://katarinaslama.github.io/,https://twitter.com/katarinaslama,https://www.goodreads.com/user/show/27856218-katarina-slama,https://www.researchgate.net/scientific-contributions/S-J-Katarina-Slama-2126732623
+https://jan.leike.name/,https://openreview.net/profile?id=~Jan_Leike1,https://dl.acm.org/profile/99659029656,https://scholar.google.com/citations?user=beiWcokAAAAJ&hl=en,https://dblp.org/pid/133/7839
+https://paulfchristiano.com/,https://www.thriftbooks.com/a/paul-christiano/399073/,https://80000hours.org/author/paul-christiano/,https://www.goodreads.com/author/show/1316281.Paul_Christiano,https://www.amazon.com/Books-Paul-Christiano/s?rh=n%3A283155%2Cp_27%3APaul+Christiano
+https://www.tinakenggallery.com/en/artists/39-xu-jiang/biography/,https://press.uchicago.edu/ucp/books/author/X/J/au37854960.html,https://privpapers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1500075,https://ieeexplore.ieee.org/author/37085991703,https://www.amazon.com/Flourishing-Spirits-Jiang-Shi-Hui/dp/3777420700
+https://scholar.google.com/citations?user=8UZIqcoAAAAJ&hl=en,https://www.goodreads.com/user/show/5395203-sandhini-agarwal,https://typeset.io/authors/sandhini-agarwal-5c4nbpjsty,https://openreview.net/profile?id=~Sandhini_Agarwal1,https://www.researchgate.net/scientific-contributions/Sandhini-Agarwal-2155010339
+https://twitter.com/maddiesimens/status/1562165146964746240,https://dblp.org/search/pid/api?q=author:Maddie_Simens:,https://maddie.ai/,https://www.linkedin.com/in/madelinesimens,https://arxiv.org/abs/2203.02155
+https://www.youtube.com/watch?v=7KRSmTxunAU,https://www.blogtalkradio.com/bookbitesforkids/2008/04/15/Online-Ways-to-Promote-your-Books,https://www.catalyzex.com/author/Fraser%20Kelton,http://books-movies-chinesefood.blogspot.com/2009/11/off-beat-interview-with-fraser-kelton.html,https://www.linkedin.com/in/fraserk
+https://scholar.google.com/citations?user=oxM-oHoAAAAJ&hl=en,https://www.researchgate.net/scientific-contributions/Carroll-L-Wainwright-75431389,https://inspirehep.net/authors/1059952,https://www.linkedin.com/in/carroll-wainwright-7690229a,https://www.amazon.com/Carroll-Wainwright/e/B092HRMQPB
+https://www.goodreads.com/author/show/813493.Luke_Miller,https://www.thriftbooks.com/a/luke-miller/1287919/,https://www.amazon.com/Luke-Alexander-Miller/e/B07FNYTSXM,https://www.bookdepository.com/author/Luke-Miller,https://www.sacristy.co.uk/authors/luke-miller
+https://www.nber.org/people/pamela_mishkin,https://manlikemishap.github.io/,https://paperswithcode.com/author/pamela-mishkin,https://www.researchgate.net/scientific-contributions/Pamela-Mishkin-2190743885,https://pudding.cool/author/pamela-mishkin
+https://www.thriftbooks.com/a/chong-zhang/2822004/,https://www.amazon.com/Chong-Zhang/e/B001K1AF0I%3Fref=dbs_a_mng_rwt_scns_share,https://journals.openedition.org/chinaperspectives/9521,https://ieeexplore.ieee.org/author/37085706370,https://www.imdb.com/name/nm5052713/
+https://digitalcommons.unl.edu/dissertations/AAI3689720/,https://scholar.google.com/citations?user=WyKvz7EAAAAJ&hl=en,https://openreview.net/profile?id=~Jacob_Hilton1,https://www.semanticscholar.org/author/Jacob-Hilton/144890163,https://paperswithcode.com/author/jacob-hilton
+https://getoffyourattitude.com/,https://www.amazon.com/Ryan-C.-Lowe/e/B005LSTVEC%3Fref=dbs_a_mng_rwt_scns_share,https://ryanclowe.com/,https://www.audible.com/author/Ryan-C-Lowe/B005LSTVEC,https://www.thriftbooks.com/a/ryan-c-lowe/446417/
+https://www.thriftbooks.com/a/cf-jeff-wu/887676/,https://ieeexplore.ieee.org/author/37597836100,https://www.goodreads.com/author/show/1185754.C_F_Jeff_Wu,https://www.amazon.com/Books-C-F-Jeff-Wu/s?rh=n%3A283155%2Cp_27%3AC.+F.+Jeff+Wu,https://www.isye.gatech.edu/~jeffwu/
+http://joschu.net/,https://scholar.google.com/citations?user=itSa94cAAAAJ&hl=en,https://news.berkeley.edu/2023/04/20/chatgpt-architect-berkeley-alum-john-schulman-on-his-journey-with-ai/,https://ieeexplore.ieee.org/author/37077552100,https://dl.acm.org/profile/99658641032
+https://askell.io/,https://scholar.google.com/citations?user=NYOJzM4AAAAJ&hl=en,https://www.askell.blog/,https://typeset.io/authors/amanda-askell-1yl0gr9ysi,https://www.researchgate.net/scientific-contributions/Amanda-Askell-2153777383
+https://scholar.google.com/citations?user=HWvPSFMAAAAJ&hl=en,https://www.semanticscholar.org/author/Long-Ouyang/31793034,https://dblp.org/pid/173/9522,http://zx.gd/academic/,https://deepai.org/profile/long-ouyang
+https://scholar.google.com/citations?user=0T4y07QAAAAJ&hl=en,https://ieeexplore.ieee.org/author/37085785259,https://orcid.org/0000-0003-4674-8092,https://www.diogoalmeida.net/,https://scholar.google.se/citations?user=_YT-tswAAAAJ&hl=en
+https://www.goodreads.com/author/list/4173803.Alex_Ray,https://www.thriftbooks.com/a/alex-ray/2443259/,https://www.amazon.com/Alex-Ray/e/B01MQQJ0SK,https://aboutread.com/author/Alex+Ray,https://fable.co/author/alex-ray
+https://scholar.google.com/citations?user=B76dD7YAAAAJ&hl=en,https://ieeexplore.ieee.org/author/37392205400,https://www.amazon.com/Mastering-Skateboarding-Welinder/dp/0736095993,https://wandb.ai/wandb_fc/gradient-dissent/reports/Peter-Welinder-Deep-Reinforcement-Learning-and-Robotics--Vmlldzo2NjQxODk,https://www.thriftbooks.com/a/per-welinder/467736/

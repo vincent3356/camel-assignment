@@ -1,0 +1,5 @@
+com\assignment\dataprocessing\AssignmentDataProcessing.class
+com\assignment\camel\CamelSprintBootServiceAApplication.class
+com\assignment\camel\timer\SimpleMessageRoute.class
+com\assignment\commonutils\Constants.class
+com\assignment\models\AbsractAndAuthorInformation.class

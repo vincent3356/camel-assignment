@@ -1,0 +1,29 @@
+AI-written critiques help humans notice flaws
+Jun 13, 2022June 13, 2022
+ We fine-tune large language models to write natural language critiques
+(natural language critical comments) using behavioral cloning. On a topic-based
+summarization task, critiques written by our models help humans find flaws in
+summaries that they would have otherwise missed. Our models help find naturally
+occurring flaws in both model and human written summaries, and intentional
+flaws in summaries written by humans to be deliberately misleading. We study
+scaling properties of critiquing with both topic-based summarization and
+synthetic tasks. Larger models write more helpful critiques, and on most tasks,
+are better at self-critiquing, despite having harder-to-critique outputs.
+Larger models can also integrate their own self-critiques as feedback, refining
+their own summaries into better ones. Finally, we motivate and introduce a
+framework for comparing critiquing ability to generation and discrimination
+ability. Our measurements suggest that even large models may still have
+relevant knowledge they cannot or do not articulate as critiques. These results
+are a proof of concept for using AI-assisted human feedback to scale the
+supervision of machine learning systems to tasks that are difficult for humans
+to evaluate directly. We release our training datasets, as well as samples from
+our critique assistance experiments.
+
+Jan Leike,Jeff Wu,William Saunders,Catherine Yeh,Steven Bills,Long Ouyang,Jonathan Ward,
+https://jan.leike.name/,https://openreview.net/profile?id=~Jan_Leike1,https://dl.acm.org/profile/99659029656,https://scholar.google.com/citations?user=beiWcokAAAAJ&hl=en,https://dblp.org/pid/133/7839
+https://www.thriftbooks.com/a/cf-jeff-wu/887676/,https://ieeexplore.ieee.org/author/37597836100,https://www.goodreads.com/author/show/1185754.C_F_Jeff_Wu,https://www.amazon.com/Books-C-F-Jeff-Wu/s?rh=n%3A283155%2Cp_27%3AC.+F.+Jeff+Wu,https://www.isye.gatech.edu/~jeffwu/
+https://www.thriftbooks.com/a/william-saunders/2214924/,https://www.goodreads.com/author/list/5865808.William_Saunders,https://www.amazon.com/Books-William-Saunders/s?rh=n%3A283155%2Cp_27%3AWilliam+Saunders,https://en.wikipedia.org/wiki/William_Saunders_(poet),https://www.thepublicdiscourse.com/author/william-saunders/
+https://www.bu.edu/wll/profile/catherine-yeh/,https://www.amazon.com/Books-Catherine-Yeh/s?rh=n%3A283155%2Cp_27%3ACatherine+Yeh,https://www.thriftbooks.com/a/catherine-v-yeh/4735358/,https://dl.acm.org/profile/99660378854,https://www.hup.harvard.edu/catalog.php?isbn=9780674504356
+https://www.gfmag.com/contributors/steven-bills/,https://www.americanbanker.com/author/steve-bills,https://stevenbill.com/author/steve/,https://www.penguinrandomhouse.com/books/324113/the-bill-by-steven-waldman/,https://orgwatch.issarice.com/?person=Steven+Bills
+https://deepai.org/profile/long-ouyang,https://scholar.google.com/citations?user=HWvPSFMAAAAJ&hl=en,https://paperswithcode.com/author/long-ouyang,https://dblp.org/pid/173/9522,http://zx.gd/academic/
+https://www.jonathanhward.com/,https://twitter.com/jonathandtward?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor,https://www.amazon.com/Jonathan-H-Ward/e/B010CCQVUS,https://www.cnas.org/people/jonathan-ward,https://bookshop.org/contributors/jonathan-h-ward

@@ -1,0 +1,23 @@
+A hazard analysis framework for code synthesis large language models
+Jul 25, 2022July 25, 2022
+ Codex, a large language model (LLM) trained on a variety of codebases,
+exceeds the previous state of the art in its capacity to synthesize and
+generate code. Although Codex provides a plethora of benefits, models that may
+generate code on such scale have significant limitations, alignment problems,
+the potential to be misused, and the possibility to increase the rate of
+progress in technical fields that may themselves have destabilizing impacts or
+have misuse potential. Yet such safety impacts are not yet known or remain to
+be explored. In this paper, we outline a hazard analysis framework constructed
+at OpenAI to uncover hazards or safety risks that the deployment of models like
+Codex may impose technically, socially, politically, and economically. The
+analysis is informed by a novel evaluation framework that determines the
+capacity of advanced code generation techniques against the complexity and
+expressivity of specification prompts, and their capability to understand and
+execute them relative to human ability.
+
+Gretchen Krueger,Miles Brundage,Heidy Khlaaf,Pamela Mishkin,Joshua Achiam,
+https://www.amazon.com/Books-Gretchen-Krueger/s?rh=n%3A283155%2Cp_27%3AGretchen+Krueger,https://www.press.jhu.edu/books/authors/gretchen-krueger-phd,https://www.thriftbooks.com/a/gretchen-d-krueger/660132/,https://www.goodreads.com/author/show/2768936.Gretchen_Krueger,https://2164.net/certified-advisors/gretchen-krueger/
+https://www.milesbrundage.com/,https://www.fhi.ox.ac.uk/team/miles-brundage/,https://scholar.google.com/citations?user=VclFrJ8AAAAJ&hl=en,https://ieeexplore.ieee.org/author/37086234543,https://twitter.com/Miles_Brundage
+https://www.heidyk.com/,https://scholar.google.com/citations?user=sjaNfa0AAAAJ&hl=en,https://ieeexplore.ieee.org/author/37085587181,https://dblp.org/pid/156/3577,https://modelviewculture.com/authors/heidy-khlaaf
+https://www.nber.org/people/pamela_mishkin,https://manlikemishap.github.io/,https://paperswithcode.com/author/pamela-mishkin,https://www.researchgate.net/scientific-contributions/Pamela-Mishkin-2190743885,https://pudding.cool/author/pamela-mishkin
+https://scholar.google.com/citations?user=jRKEUjkAAAAJ&hl=en,https://www.semanticscholar.org/author/Joshua-Achiam/3381809,https://twitter.com/jachiam0?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor,https://www.researchgate.net/scientific-contributions/Joshua-Achiam-2108164143,https://paperswithcode.com/author/joshua-achiam

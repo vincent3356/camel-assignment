@@ -1,0 +1,23 @@
+Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk
+Jan 11, 2023January 11, 2023
+ Generative language models have improved drastically, and can now produce
+realistic text outputs that are difficult to distinguish from human-written
+content. For malicious actors, these language models bring the promise of
+automating the creation of convincing and misleading text for use in influence
+operations. This report assesses how language models might change influence
+operations in the future, and what steps can be taken to mitigate this threat.
+We lay out possible changes to the actors, behaviors, and content of online
+influence operations, and provide a framework for stages of the language
+model-to-influence operations pipeline that mitigations could target (model
+construction, model access, content dissemination, and belief formation). While
+no reasonable mitigation can be expected to fully prevent the threat of
+AI-enabled influence operations, a combination of multiple mitigations may make
+an important difference.
+
+Girish Sastry,Matthew Gentzel,Katerina Sedova,Micah Musser,Renee DiResta,Josh A. Goldstein,
+https://www.foreignaffairs.com/authors/girish-sastry,https://scholar.google.com/citations?user=QJ9ThJ0AAAAJ&hl=en,https://www.semanticscholar.org/author/Girish-Sastry/144864359,https://maritzajohnson.com/author/girish-sastry/,https://www.linkedin.com/in/girish-sastry-2a39348
+https://www.linkedin.com/in/matthew-gentzel,https://cset.georgetown.edu/publication/forecasting-potential-misuses-of-language-models-for-disinformation-campaigns-and-how-to-reduce-risk/,https://www.mckinsey.com/our-people/matthew-gentzel,https://www.longview.org/about/,https://arxiv.org/abs/2301.04246
+https://cset.georgetown.edu/staff/katerina-sedova/,https://www.techcongress.io/katerina-sedova,https://scholar.google.com/citations?user=ElpWetIAAAAJ&hl=en,https://www.c-span.org/video/?518088-3/washington-journal-katerina-sedova-discusses-cyberattacks-russia-ukraine-conflict,https://www.linkedin.com/in/katyasedova
+https://cset.georgetown.edu/staff/micah-musser/,https://www.linkedin.com/in/micah-musser-a485b5121,https://twitter.com/mrmusser?lang=en,https://eventible.com/speakers/profile/micah-musser-8891,https://www.instagram.com/yeah_its_meeka/?hl=en
+https://en.wikipedia.org/wiki/Ren%C3%A9e_DiResta,https://en.wikipedia.org/wiki/Ren%C3%A9e_DiResta,http://www.reneediresta.com/,https://fsi.stanford.edu/people/renee-diresta,https://twitter.com/noupside?lang=en
+https://cset.georgetown.edu/staff/josh-a-goldstein/,https://cyber.fsi.stanford.edu/people/josh-goldstein,https://www.foreignaffairs.com/authors/josh-goldstein,https://foreignpolicy.com/author/josh-a-goldstein/,https://www.amazon.com/Joshua-Goldstein/e/B001HMRT2W%3Fref=dbs_a_mng_rwt_scns_share
