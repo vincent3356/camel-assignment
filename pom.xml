@@ -12,7 +12,7 @@
 	<artifactId>camel-sprint-boot-service-a</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>camel-sprint-boot-service-a</name>
-	<description>Demo project for Spring Boot with Apache Camel</description>
+	<description>Assignemnt project for Spring Boot with Apache Camel</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
